@@ -15,12 +15,12 @@
 
 ## Skills
 
-1.HTML; 
-2.CSS; 
-3.JavaScript; 
-4.TypeScript; 
-5.React; 
-6.Redux.
+1. HTML; 
+2. CSS; 
+3. JavaScript; 
+4. TypeScript; 
+5. React; 
+6. Redux.
 
 ## Code Examples
 
