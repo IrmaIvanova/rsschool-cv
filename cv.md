@@ -4,8 +4,8 @@
 
 ## Contacts
 
-**phone:** +7 (960) 239-59-91
-**e-mail:** nowamirf@gmail.com **or** nowa.mir@yandex.ru
+* **phone:** +7 (960) 239-59-91
+* **e-mail:** nowamirf@gmail.com **or** nowa.mir@yandex.ru
 
 ## About me
 
@@ -15,7 +15,12 @@
 
 ## Skills
 
-HTML, CSS, JavaScript, TypeScript, React, Redux.
+1.HTML; 
+2.CSS; 
+3.JavaScript; 
+4.TypeScript; 
+5.React; 
+6.Redux.
 
 ## Code Examples
 
