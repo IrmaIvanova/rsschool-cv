@@ -9,8 +9,8 @@
 
 ## About me
 
-*I`m Junior Frontend-Developer*
-*I`m working as Frontend-Developer since 18.November 2019.*
+*I'm Junior Frontend-Developer*
+*I'm working as Frontend-Developer since 18.November 2019.*
 *Before startig to work in IT, I was self-studying for six month layout designer. As I started to work, I had a low level of knowledge. I have grown a lot in two years of work, but I still feel very insecure and not self-sufficient. I came to this course, to streamline my skills and grow as a front-end specialist.*
 
 ## Skills
