@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="content-type" content="text/html; charset=windows-1251" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200&family=Italianno&family=Quicksand:wght@300&display=swap"
+        rel="stylesheet">
+    <title>CV-IvanovaIrma</title>
+</head>
+
+<body>
+    <main>
+        <div class="CV-InfoBlock">
+
+            <div class="CV-Title">
+                <h1>Irma Ivanova</h1>
+                <h2>Junior Frontend-Developer</h2>
+                <div class="CV-Contacts">
+                    <div> <span>phone:</span>
+                        <p>+7 (960) 239-59-91</p>
+                    </div>
+                    <div> <span>e-mail: </span><a href="mailto:nowamirf@gmail.com">nowamirf@gmail.com</a>
+                        <a href="mailto:nowa.mir@yandex.ru">nowa.mir@yandex.ru</a>
+                    </div>
+                </div>
+            </div>
+
+            <img class="CV-Photo" alt="Irma Ivanova" src='./img/IrmaIvanova.jpg'>
+
+
+        </div>
+
+        <div class="CV-AboutMeBlock">
+            <div class="CV-AboutMeText">
+                <p>I'm Junior Frontend-Developer. <br>
+                    I'm working as Frontend-Developer since 18.November 2019.<br>
+                    Before startig to work in IT, I was self-studying for six month layout designer.<br>
+                    As I started to work, I had a low level of knowledge.<br>
+                    I have grown a lot in two years of work, but I still feel very insecure and not self-sufficient.<br>
+                    I came to this course, to streamline my skills and grow as a front-end specialist.</p>
+            </div>
+            <h2>About me</h2>
+        </div>
+        <div class="CV-SkillsBlock">
+            <h2>Skills</h2>
+            <div class="CV-SkillsItself">
+                <div>
+                    <div>HTML</div>
+                    <div>CSS/SCSS</div>
+                    <div>JavaScript</div>
+                    <div>TypeScript</div>
+                    <div>React</div>
+                    <div>Redux</div>
+                </div>
+            </div>
+        </div>
+        <div class="CV-CodeExamples">
+            <div>
+                <h2>Code Examples</h2>
+
+                <p> this code example is my solution to Kata <strong>"Sum of two lowest positive integers"</strong> from
+                    <a href='https://www.codewars.com/'>
+                        codewars
+                    </a>
+                </p>
+            </div>
+            <div>
+                <pre>
+                <code>
+            // мое отрефакторенное решение
+            function sumTwoSmallestNumbers(numbers) {  
+            // отсортировала массив 
+            let positiveArr = numbers.sort(function(a,b){return a-b;});
+            return numbers[0]+numbers[1]
+            }
+
+            // мое первое решение.
+             function sumTwoSmallestNumbers(numbers) {  
+            // отсортировала массив и проверила его на положительные числа.
+              let positiveArr = numbers.sort(function(a,b){return a-b;}).filter(el => el > 0)
+            // нашла меньшее число в массиве
+              let min = Math.min.apply(null, positiveArr)
+            // удалила наименьшее число в массиве
+              const positiveArr2 = positiveArr.shift(1)
+            // нашла второе меньшее число
+               let min2 = Math.min.apply(null, positiveArr)
+            // сложила числа
+               let summ = min + min2
+
+               return summ    
+             }
+                </code>
+            </pre>
+            </div>
+        </div>
+        <div class="CV-Experience">
+            <div class="CV-Experience_ExperienceBlock">
+                <div>
+                    <h2  class="CV-Experience_Experience_Title">
+                        Work experience
+                    </h2>
+                    <p> ООО "Технологии защиты" since 18.11.2019 as Frontend-developer</p>
+                </div>
+                <div class="CV-Language">
+                    <h2 class="CV-Experience_Language_Title"> Language</h2>
+                    <ul>
+                        <li><strong>English</strong> Pre-Intermediate</li>
+                        <li><strong>German</strong> C1</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="CV-Experience_EducationBlock">
+                <h2 class="CV-Experience_EducationBlock_Title">Education</h2>
+                <div>
+                    <a href="https://hexlet.io">
+                        Hexlet:
+                    </a>
+                    <ul>
+                        <li class="Star">"Основы програмирования", </li>
+                        <li class="Star">"Основы командной строки", </li>
+                        <li class="Star">"Введение в веб-разрабтку",</li>
+                        <li class="Star">"Введение в программирование";</li>
+
+                    </ul>
+                </div>
+                <div>
+                    <a href="https://fructcode.com/ru/">
+                        Fruct-code:
+                    </a>
+                    <ul>
+                        <li class="Star">Bootstrap 3,</li>
+                        <li class="Star">Javascript/jQuery,</li>
+                        <li class="Star">Linux/GIT/Hosting,</li>
+                        <li class="Star">HTML/CSS;</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </main>
+    <footer>
+        <a class="CV_FooterLink" href="https://github.com/IrmaIvanova">
+            <img class="CV_Footer_IconGit" src="./img/gitHubLogo.png" alt="myGitHub">
+        </a>
+
+        <a class="CV_FooterLink" href="https://rs.school/js/">
+            <img class="CV_Footer_IconRSSchool" src="https://rs.school/images/rs_school_js.svg" alt="courselogo">
+        </a>
+        <strong>2021</strong>
+    </footer>
+</body>
+
+</html>
